@@ -32,7 +32,7 @@ description: team page.
           <small class="text-muted">| {{ member.role }}</small>
         {% endif %}
         {% if member.program %}
-          <small class="text-muted">{{ member.program | newline_to_br | split: '<br />'}}</small>
+          <small class="text-muted">{{ member.program | markdownify | newline_to_br | split: '<br />'}}</small>
         {% endif %}
       </h5>
 
