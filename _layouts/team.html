@@ -96,8 +96,8 @@ description: team page.
   <h2>Alumni</h2>
 </div>
 
+<div class="d-flex">
 {% for member in alumni %}
-  <div class="d-flex">
       <h6 id="{{ member.name | strip | url_encode }}">
         {{ member.name }}
         {% if member.website %}
@@ -109,7 +109,7 @@ description: team page.
         {% if member.role %}
           <small class="text-muted"> | {{ member.role }}</small>
         {% endif %}
-          <small class="text-muted"> | {{ member.description | markdownify }}</small>
+          <small class="text-muted">{{ member.description | markdownify }}</small>
       </h6>
-  </div>
 {% endfor %}
+  </div>
