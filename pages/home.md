@@ -1,12 +1,12 @@
 ---
 layout: home
 title: Laboratory of Chemosensation and Behavior
-description: We study how organisms use chemosensation or olfaction to navigate
+description: We study how organisms use chemosensation to navigate
 background: /assets/theme/images/splash.jpg
 permalink: /
 ---
 
-## Intro
+# Intro
 
 some text
 
