@@ -6,7 +6,7 @@ background: /assets/theme/images/splash.jpg
 permalink: /
 ---
 
-# Intro
+## Intro
 
 some text
 
