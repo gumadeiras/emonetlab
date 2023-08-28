@@ -31,10 +31,10 @@ description: team page.
         {% if member.role %}
           <small class="text-muted">| {{ member.role }}</small>
         {% endif %}
-        {% if member.program %}
-          <small class="text-muted">{{ member.program | markdownify | newline_to_br | split: '<br />'}}</small>
-        {% endif %}
       </h5>
+      {% if member.program %}
+        <small class="text-muted">{{ member.program | markdownify | newline_to_br | split: '<br />'}}</small>
+      {% endif %}
 
       {{ member.description | markdownify }}
 
