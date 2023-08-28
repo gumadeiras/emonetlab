@@ -16,7 +16,7 @@ description: team page.
 {% endif %}
 
 {{ content }}
-<br>
+<br />
 
 {% for member in team %}
   <div class="d-flex team-member">
@@ -32,7 +32,7 @@ description: team page.
           <small class="text-muted">| {{ member.role }}</small>
         {% endif %}
         {% if member.program %}
-          <small class="text-muted">{{ member.program | markdownify }}</small>
+          <small class="text-muted">{{ member.program | newline_to_br | split: '<br />'}}</small>
         {% endif %}
       </h5>
 
@@ -96,9 +96,8 @@ description: team page.
   <h2>Alumni</h2>
 </div>
 
-<div class="d-flex">
 {% for member in alumni %}
-    <div style="width: 100%;">
+  <div class="d-flex" style="padding-bottom: none;">
       <h6 id="{{ member.name | strip | url_encode }}">
         {{ member.name }}
         {% if member.website %}
@@ -107,11 +106,7 @@ description: team page.
         {% if member.email %}
           <small class="text-muted"> <a href="mailto:{{ member.email }}"><i class="far fa-envelope"></i></a></small>
         {% endif %}
-        {% if member.role %}
-          <small class="text-muted"> | {{ member.role }}</small>
-        {% endif %}
-          <small class="text-muted">{{ member.description | markdownify }}</small>
+          <small class="text-muted"> | {{ member.role }} | {{ member.description | markdownify }}</small>
       </h6>
-    </div>
-{% endfor %}
   </div>
+{% endfor %}
