@@ -12,8 +12,10 @@
     href: /join/
 - text: Research
   menu:
-  - text: Research
-    href: /research/
+  - text: Microbiology
+    href: /micro/
+  - text: Neuroscience
+    href: /neuro/
   - text: Funding
     href: /funding/
 - text: Publications
