@@ -5,7 +5,11 @@
 - text: News
   href: /news/
 - text: Team
-  href: /team/
+  menu:
+  - text: Members
+    href: /team/
+  - text: Join
+    href: /join/
 - text: Research
   menu:
   - text: Research
