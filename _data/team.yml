@@ -13,6 +13,11 @@
   # github: github_username
   email: carrie.nardella@yale.edu
 
+
+#############
+############# POSTDOCS
+#############
+
 - name: Jyot Antani
   role: Postdoc
   image: assets/theme/images/team/jyot-antani.jpg
@@ -26,6 +31,12 @@
   description: >
     Swayamshree is working on the theoretical aspects of chemical navigation. She finished her PhD at Indian Institute of Technology Kanpur under the guidance of Debashish Chowdhury where she developed theories for control and coordination of flagellar length in multiflagellated eukaryotes. In her free time she loves to explore new techniques of digital art for communicating her scientific projects.
   email: swayamshree.patra@yale.edu
+
+
+#############
+############# GRAD STUDENTS
+#############
+
 
 - name: Gustavo Madeira Santana
   role: Graduate Student
@@ -41,3 +52,26 @@
   # github: github_username
   email: gustavo.santana@yale.edu
   website: https://gumadeiras.com
+
+#############
+############# UNDERGRADS
+#############
+
+
+#############
+############# ALUMNI
+#############
+
+- name: Aarti Sehdev
+  role: Postdoc
+  # image: assets/theme/images/team/gustavo-santana.jpg # Can be external link
+  description: > # Can be Markdown
+    Data engineer consultant at [Kubrick](https://www.kubrickgroup.com/us/?__geom=✪).
+  website: https://www.linkedin.com/feed/update/urn:li:activity:7020477652058689536/
+
+- name: Nirag Kadakia
+  role: Postdoc
+  # image: assets/theme/images/team/gustavo-santana.jpg # Can be external link
+  description: > # Can be Markdown
+    Neural Interfaces Researcher, [Reality Labs](https://tech.fb.com/ar-vr/).
+  website: https://nkadakia.com
