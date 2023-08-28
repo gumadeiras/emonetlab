@@ -18,8 +18,6 @@
     href: /funding/
 - text: Publications
   href: /publications/
-- text: Join
-  href: /join/
 # - text: Documentation
 #   menu: # Dropdown menu (one level deep only)
 #   - text: Installation
@@ -33,4 +31,4 @@
 #     href: /docs/custom-navigation/
 # - text: GitHub
 #   href: https://github.com/peterdesmet/petridish/
-  new_window: true
+#   new_window: true
