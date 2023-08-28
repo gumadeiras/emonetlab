@@ -1,7 +1,7 @@
 ---
 layout: home
-title: Your research project
-description: Uses an easy to customize theme for its website
+title: laboratory of chemical sensing and behavior
+description: we study how organisms use chemosensation or olfaction to navigate
 background: /assets/theme/images/splash.jpg
 permalink: /
 ---
