@@ -4,10 +4,18 @@
   href: /
 - text: News
   href: /news/
-- text: Research
-  href: /research/
 - text: Team
   href: /team/
+- text: Research
+  menu:
+  - text: Research
+    href: /research/
+  - text: Funding
+    href: /funding/
+- text: Publications
+  href: /publications/
+- text: Join
+  href: /join/
 # - text: Documentation
 #   menu: # Dropdown menu (one level deep only)
 #   - text: Installation
