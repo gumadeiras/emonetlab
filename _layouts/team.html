@@ -9,6 +9,12 @@ description: team page.
   {% assign team = site.data.team %}
 {% endif %}
 
+{% if page.team and site.data[page.alumni] %}
+  {% assign alumni = site.data[page.alumni] %}
+{% elsif site.data.alumni %}
+  {% assign alumni = site.data.alumni %}
+{% endif %}
+
 {{ content }}
 <br>
 {% for member in team %}
