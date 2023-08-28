@@ -28,7 +28,8 @@
   email: swayamshree.patra@yale.edu
 
 - name: Gustavo Madeira Santana
-  role: Graduate Student (Interdepartmental Neuroscience Program)
+  role: Graduate Student
+  program: Interdepartmental Neuroscience Program
   image: assets/theme/images/team/gustavo-santana.jpg # Can be external link
   description: > # Can be Markdown
     Gustavo completed his undergraduate in Computer Engineering at the Federal University of Rio Grande do Sul in Brazil, where he studied the ontogeny of vocal communication in mice. He is currently interested in understanding how flies explore spatiotemporal features of odor plumes for optimal navigation. In his free time, he spends too much money going to concerts, and enjoys playing guitar.
