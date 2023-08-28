@@ -31,11 +31,11 @@ description: team page.
         {% if member.role %}
           <small class="text-muted">| {{ member.role }}</small>
         {% endif %}
+        {% if member.program %}
+          <small class="text-muted">{{ member.program | markdownify }}</small>
+        {% endif %}
       </h5>
 
-      {% if member.program %}
-        {{ member.program | markdownify }}
-      {% endif %}
       {{ member.description | markdownify }}
 
       <ul class="list-inline">
@@ -98,7 +98,7 @@ description: team page.
 
 <div class="d-flex">
 {% for member in alumni %}
-    <div>
+    <div style="width: 100%;">
       <h6 id="{{ member.name | strip | url_encode }}">
         {{ member.name }}
         {% if member.website %}
