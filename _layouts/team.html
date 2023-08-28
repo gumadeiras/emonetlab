@@ -106,8 +106,8 @@ description: team page.
         {% if member.email %}
           <small class="text-muted"> <a href="mailto:{{ member.email }}"><i class="far fa-envelope"></i></a></small>
         {% endif %}
-        <small class="text-muted"> | {{ member.role }}</small>
+        <small class="text-muted"> | {{ member.role }} | </small>
       </h6>
-      <small class="text-muted">{{ member.description | markdownify }}</small>
+      <small class="text-muted"> {{ member.description | markdownify }}</small>
   </div>
 {% endfor %}
