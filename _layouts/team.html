@@ -98,15 +98,15 @@ description: team page.
 
 {% for member in alumni %}
   <div class="d-flex" style="padding-bottom: none;">
-      <h6 id="{{ member.name | strip | url_encode }}">
-        {{ member.name }}
+      <!-- <h6 id="{{ member.name | strip | url_encode }}"> -->
+        <small class="text-muted">{{ member.name }}</small>
         {% if member.website %}
           <small class="text-muted"> <a href="{{ member.website }}"><i class="far fa-desktop"></i></a></small>
         {% endif %}
         {% if member.email %}
           <small class="text-muted"> <a href="mailto:{{ member.email }}"><i class="far fa-envelope"></i></a></small>
         {% endif %}
-          <small class="text-muted"> | {{ member.role }} | {{ member.description | markdownify }}</small>
-      </h6>
+      <!-- </h6> -->
+      <small class="text-muted"> | {{ member.role }} | {{ member.description | markdownify }}</small>
   </div>
 {% endfor %}
