@@ -29,6 +29,12 @@ description: Template for team page.
       {{ member.description | markdownify }}
 
       <ul class="list-inline">
+        {% if member.website %}
+          <li class="list-inline-item">
+            <a href="{{ member.website }}"><i class="far fa-desktop"></i></a>
+          </li>
+        {% endif %}
+
         {% if member.orcid %}
           <li class="list-inline-item">
             <a href="https://orcid.org/{{ member.orcid }}"><i class="ai ai-orcid"></i></a>
@@ -68,12 +74,6 @@ description: Template for team page.
         {% if member.email %}
           <li class="list-inline-item">
             <a href="mailto:{{ member.email }}"><i class="far fa-envelope"></i></a>
-          </li>
-        {% endif %}
-
-        {% if member.website %}
-          <li class="list-inline-item">
-            <a href="{{ member.website }}"><i class="far fa-desktop"></i></a>
           </li>
         {% endif %}
       </ul>
