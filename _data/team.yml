@@ -1,8 +1,8 @@
 # Project team members listed below will appear on the /team page
 
 - name: Carrie Nardella
-  role: Administrative Assistant # Will appear next to name
-  image: assets/theme/images/fry_ethan-hoover-311143-unsplash.jpg # Can be external link
+  role: Administrative Assistant
+  image: assets/theme/images/team/carrie-nardella.jpg
   description: > # Can be Markdown
     Carrie worked in the Medical School from 1990 to 2000.  She returned to Yale in 2016 in the Department of Molecular, Cellular and Developmental Biology. In her free time she enjoys living on the shore and raising her 3 daughters.
   # orcid: 0000-0000-0000-0000
@@ -15,14 +15,28 @@
 
 - name: Jyot Antani
   role: Postdoc
+  image: assets/theme/images/team/jyot-antani.jpg
   description: >
     Jyot is a joint postdoc with [Paul Turner Lab](https://turnerlab.yale.edu/). Jyot worked on his PhD with [Pushkar Lele](http://pushkarlelelab.org/) at Texas A&M University where he studied the sensory functions of the bacterial flagellar motor. He is currently developing a project to visualize and study the interactions between bacteria and bacteriophage- the viruses that infect bacteria. In his free time, Jyot enjoys reading fantasy novels, taking road trips to parks and beaches, cooking, and eating. 
   email: jyot.antani@yale.edu
 
 - name: Swayamshree Patra
   role: Postdoc
-  image: assets/theme/images/farnsworth_angelo-abear-1662775-unsplash.jpg
+  image: assets/theme/images/team/swayamshree-patra.jpg
   description: >
     Swayamshree is working on the theoretical aspects of chemical navigation. She finished her PhD at Indian Institute of Technology Kanpur under the guidance of Debashish Chowdhury where she developed theories for control and coordination of flagellar length in multiflagellated eukaryotes. In her free time she loves to explore new techniques of digital art for communicating her scientific projects.
   email: swayamshree.patra@yale.edu
 
+- name: Gustavo Madeira Santana
+  role: Graduate Student (INP)
+  image: assets/theme/images/team/gustavo-santana.jpg # Can be external link
+  description: > # Can be Markdown
+    Gustavo completed his undergraduate in Computer Engineering at the Federal University of Rio Grande do Sul in Brazil, where he studied the ontogeny of vocal communication in mice. He is currently interested in understanding how flies explore spatiotemporal features of odor plumes for optimal navigation. In his free time, he spends too much money going to concerts, and enjoys playing guitar.
+  orcid: 0000-0003-1897-1625
+  # researchgate: researchgate_username
+  googlescholar: L603SPwAAAAJ
+  twitter: gumadeiras
+  # mastodon: https://mastodon.social/@mastodon_username
+  # github: github_username
+  email: carrie.nardella@yale.edu
+  website: https://gumadeiras.com
