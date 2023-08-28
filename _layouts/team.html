@@ -108,6 +108,6 @@ description: team page.
           <small class="text-muted"> <a href="mailto:{{ member.email }}"><i class="far fa-envelope"></i></a></small>
         {% endif %}
       </h6>
-      <small class="text-muted"> &nbsp; &nbsp; {{ member.description | markdownify }}</small>
+      <small class="text-muted"> {{ member.description | markdownify }}</small>
   </div>
 {% endfor %}
