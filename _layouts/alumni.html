@@ -1,15 +1,9 @@
 ---
 layout: default
-description: team page.
+description: alumni page.
 ---
 
-{% if page.team and site.data[page.team] %}
-  {% assign team = site.data[page.team] %}
-{% elsif site.data.team %}
-  {% assign team = site.data.team %}
-{% endif %}
-
-{% if page.team and site.data[page.alumni] %}
+{% if page.alumni and site.data[page.alumni] %}
   {% assign alumni = site.data[page.alumni] %}
 {% elsif site.data.alumni %}
   {% assign alumni = site.data.alumni %}
@@ -18,7 +12,7 @@ description: team page.
 {{ content }}
 <br />
 
-{% for member in team %}
+{% for member in alumni %}
   <div class="d-flex team-member">
     <div class="flex-shrink-0 me-3">
       {% if member.image %}
@@ -90,25 +84,3 @@ description: team page.
     </div>
   </div>
 {% endfor %}
-
-<!-- 
-<div class="d-flex team-member">
-  <h2>Alumni</h2>
-</div>
-
-{% for member in alumni %}
-  <div class="d-flex" style="padding-bottom: none;">
-      <h6 id="{{ member.name | strip | url_encode }}" style="margin-bottom: 0; margin-block-end: 0;">
-        <small class="text-muted">{{ member.name }}</small>
-        <small class="text-muted"> | {{ member.role }}</small>
-        {% if member.website %}
-          <small class="text-muted"> | <a href="{{ member.website }}"><i class="far fa-desktop"></i></a></small>
-        {% endif %}
-        {% if member.email %}
-          <small class="text-muted"> <a href="mailto:{{ member.email }}"><i class="far fa-envelope"></i></a></small>
-        {% endif %}
-      </h6>
-      <small class="text-muted"> {{ member.description | markdownify }}</small>
-  </div>
-{% endfor %}
- -->

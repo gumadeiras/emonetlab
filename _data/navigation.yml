@@ -6,6 +6,8 @@
   menu:
   - text: Members
     href: /team/
+  - text: Alumni
+    href: /alumni/
   - text: Join
     href: /join/
 - text: Research
@@ -20,6 +22,8 @@
   href: /publications/
 - text: News
   href: /news/
+- text: Contact
+  href: /contact/
 # - text: Documentation
 #   menu: # Dropdown menu (one level deep only)
 #   - text: Installation
