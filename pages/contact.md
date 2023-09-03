@@ -1,6 +1,5 @@
 ---
 title: Get in touch
-# description: the good side.
 background:
   # img: https://images.unsplash.com/photo-1475906089153-644d9452ce87?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1200&q=80
   # by: CHUTTERSNAP
@@ -13,7 +12,8 @@ permalink: /contact/
 
 ```
 Thierry Emonet
-Lewis B. Cullman Professor of Molecular, Cellular and Developmental Biology, and Professor of Physics
+Lewis B. Cullman Professor of Molecular, Cellular and Developmental Biology
+Professor of Physics
 Yale University
 Yale Science Building, C169
 P.O. Box 208103
@@ -53,4 +53,4 @@ New Haven CT 06520-8103
 USA
 ```
 
-- [Map]('https://goo.gl/maps/gbs44v3CTAD2')
+- [Map](https://goo.gl/maps/gbs44v3CTAD2)

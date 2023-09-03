@@ -8,7 +8,7 @@ background:
 permalink: /funding/
 ---
 
-#### The Emonet Lab is gratefull for funding from
+##### The Emonet Lab is gratefull for funding from:
 
 - The National Institute of General Medical Sciences
 - The Paul G. Allen Family Foundation

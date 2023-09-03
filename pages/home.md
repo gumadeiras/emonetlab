@@ -10,7 +10,11 @@ permalink: /
 
 <!-- #### Bacterial Chemotaxis and Fruit Fly Olfactory Navigation -->
 
-Our lab combines mathematical modeling and quantitative experiments to understand the biological computations that enable organisms to sense and navigate their chemical environments. Chemical navigation involves many non-trivial computations and therefore provides a quantitative framework for discovering how biological systems compute, and how computations are implemented in molecular and cellular mechanisms. As model systems, we use the well characterized bacterial chemotaxis and fly olfaction systems. The dual perspective of microbiology and neuroscience helps reveal general principles while fostering innovation by cross-pollinating ideas.
+Our lab combines mathematical modeling and quantitative experiments to understand the biological computations that enable organisms to sense and navigate their chemical environments.
+
+Chemical navigation involves many non-trivial computations and therefore provides a quantitative framework for discovering how biological systems compute, and how computations are implemented in molecular and cellular mechanisms.
+
+As model systems, we use the well characterized bacterial chemotaxis and fly olfaction systems. The dual perspective of microbiology and neuroscience helps reveal general principles while fostering innovation by cross-pollinating ideas.
 
 <div class="col-lg">
     <ul class="fa-ul">
