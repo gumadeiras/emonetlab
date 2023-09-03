@@ -25,5 +25,4 @@
   html: "https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1010606"
   pdf: "/assets/papers/2023/2023_JayaramPlosCompBio2023.pdf"
   preprint: "https://www.biorxiv.org/content/10.1101/2022.09.28.509840v2"
-  extra: > # Can be Markdown
-    \* contributed equally.
+  extra: "\* contributed equally."

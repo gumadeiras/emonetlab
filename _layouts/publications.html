@@ -39,12 +39,12 @@ description: publications page.
          {{ paper. edition}}
         {% endif %}
         {% if paper.doi %}
-         | <a href="https://doi.org/{{ paper.html }}" title="DOI">{{ paper. doi }}</a>
+         | <a href="https://doi.org/{{ paper.doi }}" title="DOI">{{ paper.doi }}</a>
         {% endif %}
     {% endif %}
       </div>
 
-      {{ paper.description | markdownify }}
+      {{ paper.extra | markdownify }}
 
       <ul class="list-inline">
         {% if paper.html %}
