@@ -47,13 +47,14 @@
 
 
 - authors: "Kadakia N, Demir M, Michaelis BT, DeAngelis, BD, Reidenbach MA, Clark DA*, Emonet T*"
-  title: "Odor motion sensing enhances complex plume navigation"
+  title: "Odour motion sensing enhances complex plume navigation"
   journal: "Nature"
   edition: "611, pages 754–761 (2022)"
-  doi: "10.1371/journal.pcbi.1010606"
-  html: "https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1010606"
-  pdf: "/assets/papers/2023/2023_JayaramPlosCompBio2023.pdf"
-  preprint: "https://www.biorxiv.org/content/10.1101/2022.09.28.509840v2"
+  doi: "10.1038/s41586-022-05423-4"
+  html: "https://www.nature.com/articles/s41586-022-05423-4"
+  pdf: "/assets/papers/2022/2022_KadakiaNature.pdf"
+  suppinfo: "/assets/papers/2022/2022_KadakiaNatureSuppInfo.pdf"
+  preprint: "https://www.biorxiv.org/content/10.1101/2021.09.29.462473v3"
   github: "https://github.com/emonetlab/opto-track"
   twitter: "https://twitter.com/EmonetLab/status/1590465867589988354"
   extra: |-
