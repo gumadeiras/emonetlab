@@ -6,11 +6,11 @@ permalink: /team/
 toc: true
 ---
 
-[Principal Investigator]: 'team/#pi'
-[Administrative Assistant]: 'team/#admin'
-[Postdocs]: 'team/#postdocs'
-[Graduate Students]: 'team/#grad'
-[Undergraduate]: 'team/#undergrad'
+[Principal Investigator]: {{ '#pi' | relative_url }}
+[Administrative Assistant]: {{ '#admin' | relative_url }}
+[Postdocs]: {{ '#postdoc' | relative_url }}
+[Graduate Students]: {{ '#grad' | relative_url }}
+[Undergraduate]: {{ '#undergrad' | relative_url }}
 
 
 If you are interested in joining our lab, [reach out]('join/')! For previous members, see our [Alumni]('alumni/') page.
