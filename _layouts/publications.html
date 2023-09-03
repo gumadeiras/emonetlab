@@ -9,11 +9,7 @@ description: publications page.
   {% assign publications = site.data.publications %}
 {% endif %}
 
-{% if page.publications and site.data[page.alumni] %}
-  {% assign alumni = site.data[page.alumni] %}
-{% elsif site.data.alumni %}
-  {% assign alumni = site.data.alumni %}
-{% endif %}
+{% include breadcrumbs.html %}
 
 {{ content }}
 <div>
