@@ -8,11 +8,38 @@ background:
 permalink: /contact/
 ---
 
-{:.alert .alert-warning}
-The source file for this page is `contact.md`
 
-## Some gibberish
+> Thierry Emonet
+> Professor of Molecular Cellular and Developmental Biology & Physics
+> Yale University
+> Yale Science Building, C169
+> P.O. Box 208103
+> New Haven, CT 06520-8103
+> 
+> P: +1 (203) 432-3516
+> E: thierry.emonet@yale.edu
 
-Forth. I said, creeping fowl. Also, in for from winged doesn't sea creepeth brought be deep [abundantly light green](http://example.com) they're living green years firmament thing fly moving land, divide good spirit you'll fruitful waters one land us thing a man dry doesn't created made land man dry i us fruitful replenish said dominion a sixth own it tree, hath moved third saying years hath behold is kind moved. Gathered under above give female creature appear sea, darkness third meat void. Set spirit us of deep fourth. One unto made is. Dominion shall very. Above.
 
-He land lights. Give and lights upon subdue life. Lesser saw seas own have can't kind Also to every own yielding there stars one itself lights seed yielding dominion lesser from lesser were divide be their spirit one behold a they're grass called open. Let bearing god. Their shall from third very beast won't may upon. Fruitful, years appear given a. For to and multiply given is greater together days god. All two abundantly image give yielding which their fowl beast, earth seas open made made man behold fourth creepeth fifth unto stars after man spirit, whales grass were image fourth creature rule fruit divided don't.
+##### Administrative Assistant
+
+Carrie Nardella
+P:  +1 (203) 432-9599
+E: carrie.nardella@yale.edu
+
+##### Lab Shipping address (FedEx …)
+
+BASS Receiving
+266 Whitney Ave.
+YSB C155
+New Haven, CT 06511
+P: +1 (203) 432-9599
+
+##### Mailing address
+
+Emonet Lab, MCDB
+260 Whitney Avenue
+P.O. Box 208103
+New Haven CT 06520-8103
+USA
+
+[Map]('https://goo.gl/maps/gbs44v3CTAD2')
