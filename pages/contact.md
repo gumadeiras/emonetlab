@@ -11,7 +11,7 @@ permalink: /contact/
 
 #### Principal Investigator
 
-```yml
+```
 Thierry Emonet
 Lewis B. Cullman Professor of Molecular, Cellular and Developmental Biology, and Professor of Physics
 Yale University
@@ -26,7 +26,7 @@ E: thierry.emonet@yale.edu
 
 ##### Administrative Assistant
 
-```yml
+```
 Carrie Nardella
 P:  +1 (203) 432-9599
 E: carrie.nardella@yale.edu
@@ -34,7 +34,7 @@ E: carrie.nardella@yale.edu
 
 ##### Lab Shipping address (FedEx …)
 
-```yml
+```
 BASS Receiving
 266 Whitney Ave.
 YSB C155
@@ -44,7 +44,7 @@ P: +1 (203) 432-9599
 
 ##### Mailing address
 
-```yml
+```
 Emonet Lab, MCDB
 Yale Science Building
 260 Whitney Avenue
