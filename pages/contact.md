@@ -9,37 +9,48 @@ permalink: /contact/
 ---
 
 
-> Thierry Emonet
-> Professor of Molecular Cellular and Developmental Biology & Physics
-> Yale University
-> Yale Science Building, C169
-> P.O. Box 208103
-> New Haven, CT 06520-8103
-> 
-> P: +1 (203) 432-3516
-> E: thierry.emonet@yale.edu
+#### Principal Investigator
+
+```yml
+Thierry Emonet
+Lewis B. Cullman Professor of Molecular, Cellular and Developmental Biology, and Professor of Physics
+Yale University
+Yale Science Building, C169
+P.O. Box 208103
+New Haven, CT 06520-8103
+
+P: +1 (203) 432-3516
+E: thierry.emonet@yale.edu
+```
 
 
 ##### Administrative Assistant
 
+```yml
 Carrie Nardella
 P:  +1 (203) 432-9599
 E: carrie.nardella@yale.edu
+```
 
 ##### Lab Shipping address (FedEx …)
 
+```yml
 BASS Receiving
 266 Whitney Ave.
 YSB C155
 New Haven, CT 06511
 P: +1 (203) 432-9599
+```
 
 ##### Mailing address
 
+```yml
 Emonet Lab, MCDB
+Yale Science Building
 260 Whitney Avenue
 P.O. Box 208103
 New Haven CT 06520-8103
 USA
+```
 
-[Map]('https://goo.gl/maps/gbs44v3CTAD2')
+- [Map]('https://goo.gl/maps/gbs44v3CTAD2')
