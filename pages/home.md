@@ -6,7 +6,7 @@ background: /assets/theme/images/splash.jpg
 permalink: /
 ---
 
-#### We use chemical navigation as a framework to study signal processing and decision making from molecules to individuals to cell populations.
+#### We use chemical navigation as a framework to study signal processing and decision making from molecules to individuals to populations.
 
 <!-- #### Bacterial Chemotaxis and Fruit Fly Olfactory Navigation -->
 
