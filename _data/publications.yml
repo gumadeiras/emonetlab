@@ -17,7 +17,7 @@
   extra: > # Can be Markdown
     Online ahead of print.
 
-- authors: "Jayaram V*, Sehdev A*, Kadakia N, Brown EA, Emonet T"
+- authors: "Jayaram V\*, Sehdev A\*, Kadakia N, Brown EA, Emonet T"
   title: "Temporal novelty detection and multiple timescale integration drive Drosophila orientation dynamics in temporally diverse olfactory environments"
   journal: "PLoS Comput Biology"
   edition: "19(5):e1010606 (2023)"
@@ -26,4 +26,4 @@
   pdf: "/assets/papers/2023/2023_JayaramPlosCompBio2023.pdf"
   preprint: "https://www.biorxiv.org/content/10.1101/2022.09.28.509840v2"
   extra: > # Can be Markdown
-    * contributed equally.
+    \* contributed equally.
