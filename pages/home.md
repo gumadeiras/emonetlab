@@ -6,9 +6,9 @@ background: /assets/theme/images/splash.jpg
 permalink: /
 ---
 
-### We use chemical navigation as a framework to study signal processing and decision making from molecules to individuals to cell populations.
+#### We use chemical navigation as a framework to study signal processing and decision making from molecules to individuals to cell populations.
 
-### Bacterial Chemotaxis and Fruit Fly Olfactory Navigation
+#### Bacterial Chemotaxis and Fruit Fly Olfactory Navigation
 
 Short description of model organisms
 
@@ -16,6 +16,8 @@ Short description of model organisms
     <ul class="fa-ul">
         <li>
 			<i class="fa-li fa fa-chevron-circle-right"></i> For more on bacterial chemotaxis, see our <a href="micro/">Microbiolgy page</a>.
+        </li>
+        <li>
 			<i class="fa-li fa fa-chevron-circle-right"></i> For more on fruit fly olfactory navigation, see our <a href="neuro/">Neuroscience page</a>.
         </li>
     </ul>

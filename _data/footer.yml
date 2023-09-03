@@ -6,10 +6,10 @@ columns:
   - description:
     links:
     - text: Microbiology
-      href: research/#micro
+      href: micro/
       new_window: false
     - text: Neuroscience
-      href: research/#neuro
+      href: neuro/
       new_window: false
 
   - description: > # E.g. funding acknowledgement. Can be Markdown
