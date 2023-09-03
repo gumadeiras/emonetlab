@@ -13,5 +13,5 @@ permalink: /team/
 [Undergraduate]: {{ '#undergrad' | relative_url }} -->
 
 
-If you are interested in joining our lab, [reach out]{{ '/join/' | relative_url }}! For past lab members, see our [Alumni]{{ '/alumni/' | relative_url }} page.
+If you are interested in joining our lab, [reach out]({{ '/join/' | absolute_url }})! For past lab members, see our [Alumni]({{ '/alumni/' | absolute_url }}) page.
 
