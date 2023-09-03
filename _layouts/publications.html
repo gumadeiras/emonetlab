@@ -31,7 +31,7 @@ description: publications page.
       </h5>
       <div class="text-muted">
         {% if paper.authors %}
-          {{ paper.authors | markdownify | newline_to_br | split: '<br />'}}
+          {{ paper.authors | newline_to_br | split: '<br />'}}
         {% endif %}
         {% if paper.journal %}
           <strong>{{ paper.journal }}</strong>
