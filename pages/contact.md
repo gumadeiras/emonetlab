@@ -8,7 +8,7 @@ permalink: /contact/
 ---
 
 
-#### Principal Investigator
+##### Principal Investigator
 
 ```
 Thierry Emonet
@@ -46,11 +46,11 @@ P: +1 (203) 432-9599
 
 ```
 Emonet Lab, MCDB
-Yale Science Building
+Yale Science Building, C169
 260 Whitney Avenue
 P.O. Box 208103
 New Haven CT 06520-8103
 USA
 ```
 
-- [Map](https://goo.gl/maps/gbs44v3CTAD2)
+- [Map](https://goo.gl/maps/dEtT81wdbUfQ3vik9)
