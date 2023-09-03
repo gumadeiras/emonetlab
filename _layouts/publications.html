@@ -18,11 +18,11 @@ description: publications page.
 {{ content }}
 <br />
 <div>
-  <!-- <strong>Key:</strong> -->
+  <b>Key:</b>
   <ul>
     <li><i class="far fa-desktop"></i> Journal Website</li>
     <li><i class="far fa-file-pdf"></i> PDF</li>
-    <li><i class="far fa-file-circle-plus"></i> PDF Supplemental Information</li>
+    <li><i class="far fa-plus-square"></i> PDF Supplemental Information</li>
     <li><i class="far fa-file-powerpoint"></i> Preprint</li>
     <li><i class="fab fa-twitter"></i> Twitter</li>
     <li><i class="fab fa-github"></i> Github</li>
@@ -71,7 +71,7 @@ description: publications page.
         {% endif %}
         {% if paper.suppinfo %}
           <li class="list-inline-item">
-            <a href="{{ paper.suppinfo | absolute_url }}" title="PDF Supplemental Information"><i class="far fa-file-circle-plus"></i></a>
+            <a href="{{ paper.suppinfo | absolute_url }}" title="PDF Supplemental Information"><i class="far fa-plus-square"></i></a>
           </li>
         {% endif %}
         {% if paper.preprint %}
