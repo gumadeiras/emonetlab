@@ -5,6 +5,9 @@
 columns:
   - description:
     links:
+    - text: Team
+      href: team/
+      new_window: false
     - text: Microbiology
       href: micro/
       new_window: false
