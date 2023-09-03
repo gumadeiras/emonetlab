@@ -1,8 +1,6 @@
 ---
 layout: archive
 title: News
-description: News & blog posts
+description: Things have happened
 permalink: /news/
 ---
-
-<!-- Content here would shop up above your list of posts -->

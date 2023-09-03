@@ -28,7 +28,7 @@ remark: See also page.layout == 'home' in head.html and header.html.
     </div>
     
     {% if site.posts_on_home > 0 %}
-      <div class="row cards mt-4">
+      <div class="row cards mt-4" data-height="250">
         {% for item in site.posts limit:site.posts_on_home %}
           <div class="col-md-6{% if two_col %} col-lg-4{% endif %}">
             {% include card.html %}
