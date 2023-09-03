@@ -35,16 +35,16 @@ description: publications page.
         {% endif %}
         {% if paper.journal %}
           <br /><strong>{{ paper.journal }}</strong>
+        {% endif %}
         {% if paper.edition %}
          {{ paper. edition}}
         {% endif %}
         {% if paper.doi %}
          | <a href="https://doi.org/{{ paper.doi }}" title="DOI">{{ paper.doi }}</a>
         {% endif %}
-    {% endif %}
       </div>
 
-      {{ paper.extra | markdownify }}
+      {{ paper.extra | markdownify | newline_to_br | split: '<br />'}}
 
       <ul class="list-inline">
         {% if paper.html %}
@@ -63,15 +63,15 @@ description: publications page.
           </li>
         {% endif %}
 
-        {% if paper.tweetprint %}
+        {% if paper.twitter %}
           <li class="list-inline-item">
-            <a href="{{ paper.tweetprint }}"><i class="fab fa-twitter"></i></a>
+            <a href="{{ paper.twitter }}"><i class="fab fa-twitter"></i></a>
           </li>
         {% endif %}
 
         {% if paper.github %}
           <li class="list-inline-item">
-            <a href="https://github.com/{{ paper.github }}"><i class="fab fa-github"></i></a>
+            <a href="https://github.com/emonetlab/opto-track"><i class="fab fa-github"></i></a>
           </li>
         {% endif %}
       </ul>
