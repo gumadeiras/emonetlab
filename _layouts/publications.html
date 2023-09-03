@@ -28,12 +28,12 @@ description: publications page.
     <div>
       <h5 id="{{ paper.title | strip | url_encode }}" style="margin-bottom: 0; margin-block-end: 0;">
         {{ paper.title }}
-        {% if paper.journal %}
-          <small class="text-muted">| {{ paper.journal }}</small>
-        {% endif %}
       </h5>
       {% if paper.authors %}
-        <small class="text-muted">{{ paper.authors | markdownify | newline_to_br | split: '<br />'}}</small>
+        <div class="text-muted">{{ paper.authors | markdownify | newline_to_br | split: '<br />'}}</div>
+      {% endif %}
+      {% if paper.journal %}
+        <div class="text-muted">{{ paper.journal }} {% if paper.edition %} | {{ paper. edition}} {% endif %} {% if paper.doi %} | {{ paper. doi}} {% endif %}</div>
       {% endif %}
 
       {{ paper.description | markdownify }}
@@ -41,17 +41,17 @@ description: publications page.
       <ul class="list-inline">
         {% if paper.html %}
           <li class="list-inline-item">
-            <a href="{{ paper.html }}"><i class="far fa-desktop"></i></a>
+            <a href="{{ paper.html }}" title="journal website"><i class="far fa-desktop"></i></a>
           </li>
         {% endif %}
         {% if paper.pdf %}
           <li class="list-inline-item">
-            <a href="{{ paper.pdf | absolute_url }}"><i class="far fa-desktop"></i></a>
+            <a href="{{ paper.pdf | absolute_url }}" title="PDF"><i class="far fa-file-pdf"></i></a>
           </li>
         {% endif %}
         {% if paper.preprint %}
           <li class="list-inline-item">
-            <a href="{{ paper.preprint }}"><i class="far fa-desktop"></i></a>
+            <a href="{{ paper.preprint }}" title="preprint"><i class="far fa-powerpoint"></i></a>
           </li>
         {% endif %}
 
