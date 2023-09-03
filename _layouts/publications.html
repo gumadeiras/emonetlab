@@ -57,6 +57,11 @@ description: publications page.
             <a href="{{ paper.pdf | absolute_url }}" title="PDF"><i class="far fa-file-pdf"></i></a>
           </li>
         {% endif %}
+        {% if paper.suppinfo %}
+          <li class="list-inline-item">
+            <a href="{{ paper.suppinfo | absolute_url }}" title="PDF"><i class="fab fa-supple"></i></a>
+          </li>
+        {% endif %}
         {% if paper.preprint %}
           <li class="list-inline-item">
             <a href="{{ paper.preprint }}" title="preprint"><i class="far fa-file-powerpoint"></i></a>
