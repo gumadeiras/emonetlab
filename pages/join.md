@@ -10,4 +10,4 @@ permalink: /join/
 
 ##### Positions
 
-We are looking for talented postdocs, graduate students and undergraduate students with independent drive and expertise in biology, physics, mathematics, or engineering. Projects are available in both [systems neuroscience]({{ "/neuro/" | absolute_url }}) and [quantitative microbiology]({{ "/micro/" | absolute_url }}). We emphasize a strong interdisciplinary atmosphere in the lab, where microbiologists, neuroscientists, molecular biologists, physicists and mathematicians can take risks and be creative.
+We are looking for talented postdocs, graduate students and undergraduate students with independent drive and expertise in biology, physics, mathematics, or engineering. Projects are available in both [behavioral and systems neuroscience]({{ "/neuro/" | absolute_url }}), and [quantitative microbiology]({{ "/micro/" | absolute_url }}). We emphasize a strong interdisciplinary atmosphere in the lab, where microbiologists, neuroscientists, molecular biologists, physicists and mathematicians can take risks and be creative.
