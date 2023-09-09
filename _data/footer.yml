@@ -14,6 +14,9 @@ columns:
     - text: Neuroscience
       href: neuro/
       new_window: false
+    - text: Publications
+      href: publications/
+      new_window: false
 
   - description: | # E.g. funding acknowledgement. Can be Markdown
       [Join the Lab! ❤]({{ "/join/" | absolute_url }})
