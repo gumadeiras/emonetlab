@@ -16,7 +16,7 @@ columns:
       new_window: false
 
   - description: | # E.g. funding acknowledgement. Can be Markdown
-      [Join the Lab! ❤](join/)
+      [Join the Lab! ❤]({{"/join/" | absolute_url}})
       
       *Last updated: 09/2023*
     links:
