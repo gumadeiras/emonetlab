@@ -21,7 +21,7 @@ columns:
   - description: | # E.g. funding acknowledgement. Can be Markdown
       [Join the Lab! ❤](/join/)
       
-      *Last updated: 09/2023*
+#      *Last updated: 09/2023*
     links:
 
 # Small print license statement to add at the bottom of the footer. Can be Markdown
