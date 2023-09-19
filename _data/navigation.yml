@@ -14,18 +14,18 @@
     href: /galleries/
 - text: Research
   menu:
-  - text: Microbiology
-    href: /micro/
   - text: Neuroscience
     href: /neuro/
+  - text: Microbiology
+    href: /micro/
   - text: Funding
     href: /funding/
 - text: Publications
   menu:
   - text: Neuroscience
-  href: /publications-neuro/
+    href: /publications-neuro/
   - text: Microbiology
-  href: /publications-micro/
+    href: /publications-micro/
 - text: News
   href: /news/
 - text: Contact
