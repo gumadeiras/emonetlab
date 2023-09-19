@@ -1,10 +1,10 @@
 ---
 layout: default
-description: publications page.
+description: microbiology publications page.
 ---
 
-{% if page.publications and site.data[page.publications] %}
-  {% assign publications = site.data[page.publications] %}
+{% if page.publications-micro and site.data[page.publications-micro] %}
+  {% assign publications = site.data[page.publications-micro] %}
 {% elsif site.data.publications %}
   {% assign publications = site.data.publications %}
 {% endif %}
