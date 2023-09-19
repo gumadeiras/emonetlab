@@ -5,8 +5,8 @@ description: neuroscience publications page.
 
 {% if page.publications-neuro and site.data[page.publications-neuro] %}
   {% assign publications = site.data[page.publications-neuro] %}
-{% elsif site.data.publications %}
-  {% assign publications = site.data.publications %}
+{% elsif site.data.publications-neuro %}
+  {% assign publications = site.data.publications-neuro %}
 {% endif %}
 
 <!-- {% include breadcrumbs.html %} -->

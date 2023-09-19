@@ -5,8 +5,8 @@ description: microbiology publications page.
 
 {% if page.publications-micro and site.data[page.publications-micro] %}
   {% assign publications = site.data[page.publications-micro] %}
-{% elsif site.data.publications %}
-  {% assign publications = site.data.publications %}
+{% elsif site.data.publications-micro %}
+  {% assign publications = site.data.publications-micro %}
 {% endif %}
 
 <!-- {% include breadcrumbs.html %} -->
